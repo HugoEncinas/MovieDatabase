@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.gallery-container {
+  padding: 10px;
+  background: #35dccc;
+}
+
+.views {
+  float: right;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.card {
+  position: relative;
+}
+
+img.card-img-top {
+  max-width: 200px;
+}
+
+.card-img-top:hover ~ .card-icon-open, .card-icon-open:hover {
+  opacity: 1;
+}
+
+.card .movie-info {
+  background-color: skyblue;
+  padding: 10px
+}
+
+.userInfo {
+  margin-left: 10px;
+}
+
+.search-field {
+  margin: 10px 0px;
+}
+
+.fa-search {
+  margin-right: 5px;
+}
+
+.download {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login {
+  padding: 20px;
+}
